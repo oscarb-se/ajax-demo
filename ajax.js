@@ -27,5 +27,5 @@ request.onreadystatechange = function() {
      }
 }
 
-request.open('GET', 'http://mardby.se/AJK15G/lorem_text.php');
+request.open('GET', 'https://api.spotify.com/v1/users/hello');
 request.send();
