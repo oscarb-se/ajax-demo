@@ -17,3 +17,4 @@ request.onreadystatechange = function() {
 }
 
 request.open('GET', 'http://www.google.com");
+request.send();
