@@ -19,6 +19,7 @@ request.onreadystatechange = function() {
 
 	if(request.readyState == 4 && request.status == 200) {
       // I variabeln res (response) finns det information...
+      console.log("Vi har fått ett svar!");
       console.log("Svaret (response) är " + request.responseText);
       
       // Spara texten i en variabel
@@ -29,3 +30,4 @@ request.onreadystatechange = function() {
 
 request.open('GET', 'https://api.spotify.com/v1/users/hello');
 request.send();
+console.log("Sista raden i koden...");
