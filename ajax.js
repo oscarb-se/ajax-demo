@@ -36,3 +36,7 @@ console.log("Sista raden i koden...");
 // ...koden kommer att köras parallellt (funktionen på rad 15 väntar i bakgrunden på att anropas)
 // Jämför sms med telefon (sms asynkront, telefonsamtal är inte det - vi måste "lägga på" för ett nytt samtal).
 // Vi behöver inte vänta på att en tidigare rad kod "är klar"
+
+// Med AJAX kan vi uppdatera en hemsida med information från en server utan att hela sidan måste laddas om...
+// T.ex. sl.se när man söker resor eller Google och autocomplete
+// Vi hämtar bara den informationen vi behöver NÄR vi behöver den
